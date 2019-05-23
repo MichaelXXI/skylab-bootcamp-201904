@@ -1,0 +1,26 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm .",
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.10",
+    "prompts": "^2.1.0",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
